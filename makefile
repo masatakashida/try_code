@@ -3,4 +3,4 @@ main: main.cpp
 
 .PHONY: clean
 clean:
-	echo "clean"
+	rm main
