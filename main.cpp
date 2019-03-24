@@ -29,8 +29,8 @@ int main()
 	const double kTimeForStdCout{ stopwatch.getLapMiliTime_() };
 
 	// result
-	std::cout << "'printf' : " << kTimeForPrintf << " ms" << std::endl;
-	std::cout << "'std::cout' : " << kTimeForStdCout << " ms" << std::endl;
+	std::cout << "'printf'(" << kCount << ") : " << kTimeForPrintf << " ms" << std::endl;
+	std::cout << "'std::cout'(" << kCount << ") : " << kTimeForStdCout << " ms" << std::endl;
 
 	return 0;
 }
