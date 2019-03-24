@@ -13,6 +13,7 @@ public:
 
 	void start_();
 	void reset_();
-	double getLapTime_();
+	double getLapNanoTime_();
+	double getLapMiliTime_();
 private:
 };
